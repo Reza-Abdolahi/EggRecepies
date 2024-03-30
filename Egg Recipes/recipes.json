@@ -1,0 +1,295 @@
+[
+
+	{
+		"name": "knedlík",
+		"minEggsRequiredPerServing": 2,
+		"ingredientsPerEgg": [
+			["Egg","1"],
+			["Flour","0.4","cup"],
+			["Milk","0.1", "cup"],
+			["Baking Soda","1", "teaSpoon"],
+			["Yeast", "1", "teaSpoon"],
+			["Sugar", "1", "teaSpoon"],
+			["Salt", "1", "teaSpoon"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["Combine the sugar, the yeast, and the milk. Whisk and set aside for about 10 minutes or until it is foamy.", "In the bowl of a stand mixer, combine the flour, the egg, the salt. Add the yeast mixture and knead until the dough detaches from the edges of the bowl.", "Cover the bowl with a cloth and let it rise for 2 hours, in a warm area away from drafts.", "Dust the work surface with flour and form the dough into 3 loaves.", "In a large pot, bring salted water to a boil. Carefully place the dumplings in the pot", "Reduce the heat to low and cook covered for 20 minutes, turning the dumplings half way through the cooking. You need to maintain a rolling boil throughout the cooking.", "Take the dumplings out of the pot. Poke the dumplings in a few places with a fork to let the steam out.", "Slice the dumplings delicately with a sewing thread, a dental floss, or a serrated knife. Slices should be about ¾ inch thick."],
+		"notes": ["Knedlíky are simple boiled dumplings from the Czech Republic, a small country located in Central Europe surrounded by Poland, Slovakia, Austria, and Germany. The bread Czech dumplings are made with flour, yeast, egg, salt, and milk and are boiled and then sliced. Knedlíky are a staple food of Czechian cuisine and are served on the side of many traditional dishes, including the quintessential Czech dish vepřo knedlo zelo. Knedlíky have a long and rich history, much like that of Czechia. The land which makes up the Czech Republic today has a history of monarch, religious, and communist rule, but today is a market-based republic. The first known accounts of dumplings in the area date back to the days of ancient Rome when dumplings made of meat, vegetables and grains were boiled or fried in animal fat."],
+
+		"image": "https://www.196flavors.com/wp-content/uploads/2018/01/knedliky-3.jpg"
+	},
+
+	{
+		"name": "Bramboracky (Czech Savory Potato Pancakes)",
+		"minEggsRequiredPerServing": 1,
+		"ingredientsPerEgg": [
+			["Egg","1"],
+			["Potato","2"],
+			["Milk", "0.5", "tableSpoon"],
+			["Garlic","2", "clove"],
+			["Flour","1.5", "tableSpoon"],
+			["Salt","0.1", "teaSpoon"],
+			["Black Pepper","0.1","teaSpoon"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["Peel and coarsely grate the potatoes, squeezing out as much liquid as you can. Transfer the shredded potatoes to a mixing bowl. Stir in the crushed garlic, salt, pepper, marjoram, and caraway seeds.",
+			"Beat the eggs with the milk. Add the egg mixture to the potatoes and stir well to combine. Gradually mix in the flour to form a thick but still pourable batter.",
+			"Heat the oil in a skillet over medium-high heat; the oil should be about 1/4-inch deep. Spoon about 1/4 cup of batter into the hot oil, flattening it slightly. Fry the pancake until golden brown, about 3 minutes on each side. Drain on paper towels. Taste the first pancake and adjust the seasoning if necessary; repeat with remaining batter."
+		],
+		"notes": ["Bramboracky (bram-bor-atch-key) are traditional pan-fried potato pancakes best accompanied by beer. This is a recipe that my Czech boyfriend and I have fun with often. Potato pancakes are commonly associated with traditional Czech, Ukrainian, Yiddish, German, Hungarian and Polish cuisines, although other cuisines (including those of India and Korea) also have similar potato pancakes."],
+		"image": "https://images.media-allrecipes.com/userphotos/720x405/2182633.jpg"
+	},
+
+	{
+		"name": "Obložené chlebíčky",
+		"minEggsRequiredPerServing": 1,
+		"ingredientsPerEgg": [
+			["Egg","1"],
+			["Salted Butter","3", "tableSpoon"],
+			["Sweet Pickle","1"],
+			["Cherry Tomatoe","2"],
+			["Parsley","1","teaSpoon"],
+			["Baguette","4","Slice"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["Spread butter on slices of bread.", "Place a slice of hard-boiled egg.",
+			"Decorate with one or two slices of sweet sour pickle and half a cherry tomato.",
+			"Sprinkle with finely chopped parsley."
+		],
+		"notes": ["Obložené Chlebíčky are small open-faced appetizer sandwiches featuring assorted eggs, meats, cheeses, and vegetables and are meant to be eaten in a few small bites. Obložené chlebíčky, hail from the Czech Republic and are thought to have been invented in the early 20 th century by Jan Paukert of the popular Paukert’ s deli in Prague.However, small pickable sandwiches have been a standard meal in Central and Eastern Europesince the Middle Ages when the use of plates and utensils was not common and variations of obložené chlebíčky can today be found in countries that surround the Czech Republic, as well as in Scandinavia with Danish smørrebrød.Obložené chlebíčky are typically served at parties and events as small appetizers that are accompanied by wine or beer, and are commonly served tapas - style in bars and pubs throughout Prague and other cities in the Czech Republic.The beauty of obložené chlebíčky is that each restaurant, bar, or home will make their own variation of toppings and become known for their creative take on the traditional obložené chlebíčky recipe."],
+		"image": "https://www.196flavors.com/wp-content/uploads/2018/01/Obloz%CC%8Cene%CC%81-Chlebi%CC%81c%CC%8Cky-2.jpg"
+	},
+
+
+	{
+		"name": "Chorizo Eggs Benedict",
+		"minEggsRequiredPerServing": 2,
+		"ingredientsPerEgg": [
+			["Egg", "1"],
+			["Egg yolk", "2"],
+			["Spanish chorizo sausages", "0.5"],
+			["Butter", "1", "stick"],
+			["Lemon Juice", "1", "teaSpoon"],
+			["Garlic", "1", "clove"],
+			["Olive oil", "0.5", "tableSpoon"],
+			["Baby Spinach", "0.5", "cup"],
+			["Salt", "1", "teaSpoon"],
+			["Black Pepper", "1", "teaSpoon"],
+			["Brioche", "1", "slice"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["In a medium skillet set over medium heat, sauté the chorizo until lightly browned, 3 to 4 minutes. Stir in the butter and let it melt. Remove from the heat.", "Pour some water into a small saucepan over medium heat.In a heatproof bowl slightly larger than the saucepan, combine the egg yolks, lemon juice, 2 tablespoons water, and a pinch of salt.Rest the bowl over the saucepan and whisk until the egg mixture becomes fluffy but not overcooked, 2 to 3 minutes.While continuing to whisk, slowly add the chorizo butter in a thin stream until the sauce has fully emulsified and takes on a creamy mayonnaise - like texture, about 5 minutes longer.Add a touch of salt and pepper and set aside.", "Meanwhile, set a medium saucepan or deep skillet filled with 2 inches(5 cm) water over medium heat and bring to a simmer.", "Wipe out the skillet you used for the chorizo, return it to medium heat, and warm the oil.Toss in the garlic and sauté for a few seconds before adding the baby spinach. Cook for 1 minute to allow the spinach leaves to wilt.Season with salt and pepper and set aside.", "Toast the brioche, place on serving plates, and top each with a spoonful of spinach.", "Working with 1 egg at a time, break it into a ramekin.Lower the edge of the ramekin to just above the simmering water and slowly tilt the egg into the water.Gently poach until the eggs are cooked to your liking, 2 to 4 minutes.Use a slotted spoon to remove the eggs from the water, allow them to drip dry or place them on a clean towel for a moment, and then place 1 or 2 eggs on top of each brioche.To finish, spoon the warm chorizo hollandaise over the poached eggs and sprinkle pimentón over each one.Devour immediately."],
+
+		"notes": ["Chorizo eggs Benedict is a layering of brioche, spinach, poached eggs, Spanish chorizo, classic Hollandaise sauce, and a dusting of smoked paprika. It’s an Iberian take on the classic French breakfast. Eggs Benedict with chorizo hollandaise is a spectacular Spanish-inspired riff on everyone’s fave brunch classic. Rich and creamy hollandaise spiked with spicy sausage teams up with garlicky spinach in lieu of the traditional ham. Consider it your next-level weekend fix."],
+		"image": "https://s23991.pcdn.co/wp-content/uploads/2017/08/chorizo-eggs-benedict-recipe.jpg"
+	},
+
+
+	{
+		"name": "Brioche French Toast",
+		"minEggsRequiredPerServing": 1,
+		"ingredientsPerEgg": [
+			["Egg","1"],
+			["Brioche","0.5","loaf"],
+			["Custard","1","cup"],
+			["Vanilla extract","1","teaSpoon"],
+			["Oil for pan", "2","tableSpoon"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": [
+			"skillet and preheat over medium-high heat.",
+			"Meanwhile, slice brioche into ½ - ¾ inch thick slices.",
+			"Combine custard, eggs, and vanilla and whisk well.",
+			"Quickly dip slices of bread, one at a time, into custard mixture. Allow excess custard to drip off before placing into prepared skillet.",
+			"Fry bread until golden brown, then flip and fry other side.",
+			"Remove from skillet and serve with syrup or fresh fruit, if desired."
+		],
+		"notes": ["Brioche is not what we typically think of as French bread, though France is where it originated.  Brioche has a high egg and butter content, which gives it a rich and tender crumb.  Because of this, it does not need to soak long in the custard mixture."],
+		"image": "https://cdn1.southernkissed.com/wp-content/uploads/2017/02/French-Brioche-Toast-768x564.jpg"
+	},
+
+
+
+	{
+		"name": "French Scrambled Eggs",
+		"minEggsRequiredPerServing": 3,
+		"ingredientsPerEgg": [
+			["Egg", "1"],
+			["Heavy Cream", "0.2", "tableSpoon"],
+			["Butter", "0.2", "tableSpoon"],
+			["Salt", "0.2", "teaSpoon"],
+			["Black Pepper", "0.2", "teaSpoon"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["Combine the eggs, salt, and pepper in a bowl. Stir with a fork or wire whisk until blended and light in color. ", "Melt the butter in a large skillet over medium low heat. Tilt the skillet to completely coat the bottom of the pan with the butter.", "Pour the eggs into the skillet and cook, stirring constantly, until the eggs are firm but moist. ", "Remove from heat and stir in the whipping cream. Serve immediately."],
+		"notes": ["The French method of making scrambled eggs involves mixing the eggs with seasonings, cooking them in butter (of course), and Th.en adding in heavy cream at the end just before serving. This results in a richer and creamier egg dish."],
+		"image": "https://cdn.cdkitchen.com/recipes/images/2016/03/87263-5032-mx.jpg"
+	},
+
+
+
+
+	{
+		"name": "Eggs in Purgatory",
+		"minEggsRequiredPerServing": 1,
+		"ingredientsPerEgg": [
+			["Egg", "1"],
+			["Onion", "0.5"],
+			["Olive oil", "1", "tableSpoon"],
+			["Garlic", "0.5", "clove"],
+			["Oregano", "0.25", "tableSpoon"],
+			["Paprika", "0.1", "teaSpoon"],
+			["Tomato", "4"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["Heat oil over medium heat in a 10-12-inch skillet.", "Add onion and cook, stirring occasionally, until golden, about 4-5 minutes; add the garlic and cook for an additional 1-2 minutes more. Lower the heat to medium-low. Add oregano, turmeric, cumin, paprika, red pepper, black pepper and salt. Cook about 1 minute to toast spices.", "Add tomatoes, bring to a boil, reduce to a simmer and continue to cook for a few minutes, stirring occasionally, until thickened. Using a potato masher or back of large spoon, crush the tomatoes a bit.Crack the eggs into the sauce and cover. Simmer gently until the whites are set and the yolk is still runny.", "Salt and pepper to taste. (See other options for cooking eggs in notes.) To serve spoon sauce over prepared polenta or grits, top with egg(s). Sprinkle with fresh parsley or cilantro. Serve with toasted bread."
+
+		],
+		"notes": ["This spicy savory breakfast or brunch dish is totally satisfying way to start the day. Serve over polenta or grits for a hearty meal."],
+
+		"image": "https://shewearsmanyhats.com/wp-content/uploads/2015/02/eggs-purgatory-3.jpg"
+	},
+
+
+	{
+		"name": "Jalapeño Popper Egg Cups",
+		"minEggsRequiredPerServing": 2,
+		"ingredientsPerEgg": [
+			["Cheddar Cheese", "0.5", "ounce"],
+			["Cream Cheese", "0.2", "ounce"],
+			["Jalapeño peppers", "0.5"],
+			["Bacon", "2", "slice"],
+			["Garlic Powder", "0.5", "teaSpoon"],
+			["Onion Powder", "0.5", "teaSpoon"],
+			["Salt", "0.2", "teaSpoon"],
+			["Black Pepper", "0.2", "teaSpoon"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["Get all ingredients ready. Measure out all cheese and grate as needed. Prep the jalapenos by seeding and chopping them. Save 1 jalapeno that you can cut into rings as a garnish for the top. Preheat oven to 375°F.", "Par-cook bacon so it’s semi crisp but still pliable. Save bacon grease in the pan.", "Using a hand mixer, mix together eggs, cream cheese, chopped and seeded jalapeno peppers, leftover bacon grease, garlic powder, onion powder, and salt and pepper to taste.", "Grease wells of muffin tin, then place par-cooked bacon around the edges.", "Pour egg mixture into the wells of the muffin tin. Make sure you only go about half-way to 2/3 way up as they rise quite a lot. Oh! This is the reason you only see 4 muffins in the following pictures – I overfilled the first batch of 12 and they turned into Frankenstein muffins.", "Add cheddar cheese on the top of the muffin, then a jalapeno. Cook at 375F for 20-25 minutes.", "Once cooked, remove from the oven to let cool. They will slowly deflate and give you a great treat.", "Serve and enjoy!"],
+		"notes": ["Jalapeño Popper Egg Cups – a healthy breakfast twist on the classic appetizer made with cheese, bacon and jalapeno peppers. Perfect for busy school or work mornings or a holiday brunch."],
+		"image": "https://cdn.ruled.me/wp-content/uploads/2015/03/jalapenopoppereggcup.jpg"
+	},
+
+	{
+		"name": "Baked French Eggs",
+		"minEggsRequiredPerServing": 1,
+		"ingredientsPerEgg": [
+			["Egg", "1"],
+			["Parmesan Cheese", "0.5", "ounce"],
+			["Heavy Cream", "0.1", "cup"],
+			["Salt", "0.1", "teaSpoon"],
+			["Black Pepper", "0.1", "teaSpoon"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["Preheat the oven to 425°F. Spritz each muffin cup with butter flavored cooking spray. Crack an egg into each cup.", "Drizzle each egg with 1-2 tsp of heavy cream. A drizzle of melted butter will work, too. Season with salt and freshly ground pepper to taste and sprinkle with 1 Tbsp of Parmesan cheese.", "Place the eggs into the oven and cook 7-8 minutes for soft, 9-10 minutes for semi-soft and 11-12 minutes for firm centers. Garnish with additional Parmesan cheese and serve immediately."],
+		"notes": ["Baking eggs is incredibly simple and you can several eggs in one fell swoop. There are tons of recipes for special breakfast bowls, tarts and hash brown pies and I love those, too.  This recipe is all about the incredible edible egg and serves as an easy way to make several eggs at one time to accompany any of your favorite breakfast sides. The best part?   Everyone gets to eat at the same time, it doesn’t get any better than that."],
+		"image": "https://i1.wp.com/www.melissassouthernstylekitchen.com/wp-content/uploads/2011/08/editedBakedFrenchEggs-030.jpg?ssl=1"
+	},
+
+
+	{
+		"name": "Ham and Feta Omelet",
+		"minEggsRequiredPerServing": 2,
+		"ingredientsPerEgg": [
+			["Egg", "1"],
+			["Onion", "0.25"],
+			["Milk", "0.5", "tableSpoon"],
+			["Garlic Powder", "0.2", "teaSpoon"],
+			["Dried Basil", "0.1", "teaSpoon"],
+			["Dried Oregano", "0.1", "teaSpoon"],
+			["Salt", "0.2", "teaSpoon"],
+			["Butter", "0.25", "tableSpoon"],
+			["Deli ham","1","slice"],
+			["Balsamic Vinaigrette","0.5","teaSpoon"],
+			["Plum Tomato","1"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["In a small bowl, whisk eggs, green onion, milk and seasonings until blended. In a large nonstick skillet, heat butter over medium-high heat. Pour in egg mixture. Mixture should set immediately at edge.", "As eggs set, push cooked portions toward the center, letting uncooked eggs flow underneath. When eggs are thickened and no liquid egg remains, top one side with cheese and ham.", "Fold omelet in half; cut into two portions. Slide onto plates; top with tomato. Drizzle with vinaigrette before serving."],
+		"notes": ["Nutrition Facts 1/2 omelet: 289 calories, 20g fat (9g saturated fat), 410mg cholesterol, 749mg sodium, 5g carbohydrate (3g sugars, 1g fiber), 21g protein."],
+		"image": "https://www.tasteofhome.com/wp-content/uploads/2017/10/exps103451_SD153323C06_09_2b-696x696.jpg"
+	},
+
+
+	{
+		"name": "French Corn Omelet",
+		"minEggsRequiredPerServing": 3,
+		"ingredientsPerEgg": [
+			["Egg", "1"],
+			["Water", "1", "tableSpoon"],
+			["Cheddar Cheese", "0.1", "cup"],
+			["Coren", "0.1", "cup"],
+			["Butter", "0.2", "tableSpoon"],
+			["Salt", "0.1", "teaSpoon"],
+			["Black Pepper", "0.1", "teaSpoon"],
+			["Salsa", "1", "teaSpoon"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["In a small bowl, whisk eggs, water, salt and pepper until blended. In a large nonstick skillet, heat 2 teaspoons butter over medium heat. Add corn; cook and stir 1-2 minutes or until tender. Remove from pan.", "In same pan, heat 1 tablespoon butter over medium-high heat. Pour in half of the egg mixture. Mixture should set immediately at edges. As eggs set, push cooked portions toward the center, letting uncooked eggs flow underneath. When eggs are thickened and no liquid egg remains, spoon half of the corn on one side; sprinkle with 1/4 cup cheese. Fold omelet in half. Cut in half; slide each half onto a plate.", "Repeat with remaining butter, egg mixture and filling. Serve with salsa."],
+		"notes": ["Nutrition Facts: 1/2 omelet (calculated without salsa): 336 calories, 25g fat (12g saturated fat), 500mg cholesterol, 482mg sodium, 8g carbohydrate (3g sugars, 1g fiber), 20g protein."],
+		"image": "https://www.tasteofhome.com/wp-content/uploads/2017/10/exps167311_SD153321B02_04_3b-696x696.jpg"
+	},
+
+	{
+		"name": "French Omelet",
+		"minEggsRequiredPerServing": 3,
+		"ingredientsPerEgg": [
+			["Egg", "1"],
+			["Large Egg White", "2"],
+			["Milk", "0.2", "cup"], 
+			["Onion", "0.5", "tableSpoon"],
+			["Green Pepper", "0.5", "tableSpoon"],
+			["Cooked Ham", "0.2", "cup"],
+			["Salt", "0.1", "teaSpoon"],
+			["Black Pepper", "0.1", "teaSpoon"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["Whisk together first five ingredients.", "Place a 10-in. skillet coated with cooking spray over medium heat. Pour in egg mixture. Mixture should set immediately at edges. As eggs set, push cooked portions toward the center, letting uncooked eggs flow underneath. When eggs are thickened and no liquid egg remains, top one half with remaining ingredients. Fold omelet in half. Cut in half to serve."],
+		"notes": ["Nutrition Facts: 1/2 omelet: 186 calories, 9g fat (4g saturated fat), 207mg cholesterol, 648mg sodium, 4g carbohydrate (3g sugars, 0 fiber), 22g protein. Diabetic Exchanges: 3 lean meat, 1 fat."],
+		"image": "https://www.tasteofhome.com/wp-content/uploads/2017/10/French-Omelet_EXPS_HCK19_25837_C06_22_3b-1-696x696.jpg"
+	},
+
+
+	{
+		"name": "Ham ’n’ cheese omelet roll",
+		"minEggsRequiredPerServing": 1,
+		"ingredientsPerEgg": [
+			["Egg", "1"],
+			["Cream Cheese", "0.33", "ounce"],
+			["Milk", "0.1", "cup"],
+			["Dijon mustard", "0.5", "teaSpoon"],
+			["Cooked Ham", "0.2", "cup"],
+			["Salt", "0.1", "teaSpoon"],
+			["Green Onion”,0.1,”cup"]
+		],
+		"upvotes": 0,
+		"downvotes": 0,
+		"lastUpdate": 0,
+		"steps": ["Line the bottom and sides of a greased 15x10x1-in. baking pan with parchment; grease the paper and set aside.", "In a small bowl, beat cream cheese and milk until smooth. Add flour and salt; mix until combined. In a large bowl, whisk eggs until blended. Add cream cheese mixture; mix well. Pour into prepared pan.", "Bake at 375° until eggs are puffed and set, 30-35 minutes. Remove from the oven. Immediately spread with mustard and sprinkle with 1 cup cheese. Sprinkle with ham, onions and 1 cup cheese.", "Roll up from a short side, peeling parchment away while rolling. Sprinkle top of roll with the remaining cheese; bake until cheese is melted, 3-4 minutes longer."],
+		"notes": ["Nutrition Facts: 1 slice: 239 calories, 17g fat (9g saturated fat), 260mg cholesterol, 637mg sodium, 4g carbohydrate (2g sugars, 0 fiber), 17g protein."],
+		"image": "https://www.tasteofhome.com/wp-content/uploads/2017/10/Ham-n-Cheese-Omelet-Roll_EXPS_BBBZ16_14575_C07_08_1b-1-696x696.jpg"
+	}
+]

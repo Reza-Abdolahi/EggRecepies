@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SearchCell" rowHeight="198" id="KGk-i7-Jjw" customClass="SearchTableViewCell" customModule="Egg_Recipes">
+            <rect key="frame" x="0.0" y="0.0" width="467" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="467" height="197.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6kC-Uf-ZVs">
+                        <rect key="frame" x="23.5" y="24.5" width="420" height="148.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wex-rD-Pk5">
+                                <rect key="frame" x="0.0" y="0.0" width="420" height="148.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <view userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="BHB-du-4aF" userLabel="DimView">
+                                <rect key="frame" x="0.0" y="0.0" width="420" height="148.5"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipe Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THA-IV-SDv">
+                                <rect key="frame" x="16" y="16" width="283.5" height="44.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minimum Eggs per serving:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQX-02-qMV">
+                                <rect key="frame" x="16" y="60.5" width="283.5" height="31"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0d-YS-xjq" userLabel="VoteDownBtn">
+                                <rect key="frame" x="359.5" y="88" width="44.5" height="44.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="C0d-YS-xjq" secondAttribute="height" multiplier="1:1" id="L2C-XE-wp3"/>
+                                </constraints>
+                                <state key="normal" image="VoteDown"/>
+                                <connections>
+                                    <action selector="voteDownAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="yL7-NF-0yn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeF-qQ-tIp" userLabel="VoteUpBtn">
+                                <rect key="frame" x="307.5" y="88" width="44" height="44.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QeF-qQ-tIp" secondAttribute="height" multiplier="1:1" id="420-4w-cid"/>
+                                </constraints>
+                                <state key="normal" image="VoteUp"/>
+                                <connections>
+                                    <action selector="voteUpAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="TGF-1o-mOZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRE-Vt-RlO" userLabel="VoteDownLabel">
+                                <rect key="frame" x="359.5" y="62" width="44.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZtT-M7-zeW" userLabel="VoteUpLabel">
+                                <rect key="frame" x="307.5" y="62" width="44" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NE7-ms-VAN" userLabel="Minimum Eggs to be set">
+                                <rect key="frame" x="16" y="91.5" width="291.5" height="31.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWR-q5-rra" userLabel="Delete Btn">
+                                <rect key="frame" x="307.5" y="15.5" width="96.5" height="30"/>
+                                <color key="backgroundColor" red="0.51087337732315063" green="0.77628821134567261" blue="0.78039997816085815" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Delete">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="deleteBtnAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6aC-25-hPv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZtT-M7-zeW" firstAttribute="centerX" secondItem="QeF-qQ-tIp" secondAttribute="centerX" id="1fd-eU-feD"/>
+                            <constraint firstItem="Wex-rD-Pk5" firstAttribute="centerX" secondItem="6kC-Uf-ZVs" secondAttribute="centerX" id="1l9-a8-vfk"/>
+                            <constraint firstItem="BHB-du-4aF" firstAttribute="centerX" secondItem="Wex-rD-Pk5" secondAttribute="centerX" id="3x2-wD-4uL"/>
+                            <constraint firstItem="YQX-02-qMV" firstAttribute="height" secondItem="THA-IV-SDv" secondAttribute="height" multiplier="0.7" id="4dL-CF-DK6"/>
+                            <constraint firstItem="Wex-rD-Pk5" firstAttribute="width" secondItem="6kC-Uf-ZVs" secondAttribute="width" id="5xt-ij-mEF"/>
+                            <constraint firstItem="THA-IV-SDv" firstAttribute="height" secondItem="6kC-Uf-ZVs" secondAttribute="height" multiplier="0.3" id="6CR-IQ-cjB"/>
+                            <constraint firstItem="fRE-Vt-RlO" firstAttribute="centerX" secondItem="C0d-YS-xjq" secondAttribute="centerX" id="7k9-4P-10a"/>
+                            <constraint firstItem="ZtT-M7-zeW" firstAttribute="width" secondItem="fRE-Vt-RlO" secondAttribute="width" id="AF2-9C-DUh"/>
+                            <constraint firstItem="PWR-q5-rra" firstAttribute="leading" secondItem="THA-IV-SDv" secondAttribute="trailing" constant="8" id="BFL-dm-jIg"/>
+                            <constraint firstItem="Wex-rD-Pk5" firstAttribute="centerY" secondItem="6kC-Uf-ZVs" secondAttribute="centerY" id="CGX-JO-ARW"/>
+                            <constraint firstItem="THA-IV-SDv" firstAttribute="top" secondItem="6kC-Uf-ZVs" secondAttribute="top" constant="16" id="DeF-tY-9cn"/>
+                            <constraint firstItem="ZtT-M7-zeW" firstAttribute="leading" secondItem="YQX-02-qMV" secondAttribute="trailing" constant="8" id="DwT-62-e3N"/>
+                            <constraint firstItem="NE7-ms-VAN" firstAttribute="leading" secondItem="YQX-02-qMV" secondAttribute="leading" id="EtO-W2-EAF"/>
+                            <constraint firstItem="fRE-Vt-RlO" firstAttribute="width" secondItem="C0d-YS-xjq" secondAttribute="width" id="Fde-dh-UMB"/>
+                            <constraint firstItem="PWR-q5-rra" firstAttribute="leading" secondItem="QeF-qQ-tIp" secondAttribute="leading" id="HZ5-nE-eMQ"/>
+                            <constraint firstItem="fRE-Vt-RlO" firstAttribute="height" secondItem="C0d-YS-xjq" secondAttribute="height" multiplier="0.4" id="ITU-Cy-WgU"/>
+                            <constraint firstItem="fRE-Vt-RlO" firstAttribute="top" secondItem="PWR-q5-rra" secondAttribute="bottom" constant="16.5" id="Mxc-CC-pbd"/>
+                            <constraint firstItem="fRE-Vt-RlO" firstAttribute="bottom" secondItem="C0d-YS-xjq" secondAttribute="top" constant="-8" id="P5t-Do-CGs"/>
+                            <constraint firstItem="YQX-02-qMV" firstAttribute="leading" secondItem="6kC-Uf-ZVs" secondAttribute="leading" constant="16" id="QQr-pm-a18"/>
+                            <constraint firstItem="YQX-02-qMV" firstAttribute="top" secondItem="THA-IV-SDv" secondAttribute="bottom" id="RQW-9e-oj7"/>
+                            <constraint firstItem="QeF-qQ-tIp" firstAttribute="height" secondItem="C0d-YS-xjq" secondAttribute="height" id="RYE-2P-VWX"/>
+                            <constraint firstItem="BHB-du-4aF" firstAttribute="width" secondItem="Wex-rD-Pk5" secondAttribute="width" id="T4z-XA-qzz"/>
+                            <constraint firstItem="BHB-du-4aF" firstAttribute="centerY" secondItem="Wex-rD-Pk5" secondAttribute="centerY" id="TU4-tq-PvQ"/>
+                            <constraint firstItem="NE7-ms-VAN" firstAttribute="trailing" secondItem="QeF-qQ-tIp" secondAttribute="leading" id="V0b-hm-VBq"/>
+                            <constraint firstItem="NE7-ms-VAN" firstAttribute="height" secondItem="YQX-02-qMV" secondAttribute="height" id="ZeZ-SP-PXE"/>
+                            <constraint firstItem="YQX-02-qMV" firstAttribute="bottom" secondItem="NE7-ms-VAN" secondAttribute="top" id="Zou-vF-tMn"/>
+                            <constraint firstItem="PWR-q5-rra" firstAttribute="trailing" secondItem="C0d-YS-xjq" secondAttribute="trailing" id="cot-4O-QfE"/>
+                            <constraint firstItem="QeF-qQ-tIp" firstAttribute="centerY" secondItem="C0d-YS-xjq" secondAttribute="centerY" id="dzq-nT-T7b"/>
+                            <constraint firstAttribute="bottom" secondItem="C0d-YS-xjq" secondAttribute="bottom" constant="16" id="ePd-ra-DuK"/>
+                            <constraint firstItem="THA-IV-SDv" firstAttribute="leading" secondItem="6kC-Uf-ZVs" secondAttribute="leading" constant="16" id="f1O-BK-0vh"/>
+                            <constraint firstItem="PWR-q5-rra" firstAttribute="top" secondItem="6kC-Uf-ZVs" secondAttribute="top" constant="15.5" id="hBD-RT-cmG"/>
+                            <constraint firstAttribute="trailing" secondItem="C0d-YS-xjq" secondAttribute="trailing" constant="16" id="kLq-NY-DDI"/>
+                            <constraint firstItem="QeF-qQ-tIp" firstAttribute="trailing" secondItem="C0d-YS-xjq" secondAttribute="leading" constant="-8" id="kq3-eD-O26"/>
+                            <constraint firstItem="BHB-du-4aF" firstAttribute="height" secondItem="Wex-rD-Pk5" secondAttribute="height" id="pBf-6D-eNY"/>
+                            <constraint firstItem="C0d-YS-xjq" firstAttribute="height" secondItem="THA-IV-SDv" secondAttribute="height" id="s0T-6l-cn2"/>
+                            <constraint firstItem="Wex-rD-Pk5" firstAttribute="height" secondItem="6kC-Uf-ZVs" secondAttribute="height" id="sxw-0o-NEK"/>
+                            <constraint firstItem="ZtT-M7-zeW" firstAttribute="height" secondItem="fRE-Vt-RlO" secondAttribute="height" id="tch-Mg-bER"/>
+                            <constraint firstItem="ZtT-M7-zeW" firstAttribute="centerY" secondItem="fRE-Vt-RlO" secondAttribute="centerY" id="xcO-jc-Pk8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="6kC-Uf-ZVs" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.75" id="c2g-yE-qqc"/>
+                    <constraint firstItem="6kC-Uf-ZVs" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.9" id="fGk-eq-j4e"/>
+                    <constraint firstItem="6kC-Uf-ZVs" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="gWI-5e-uMV"/>
+                    <constraint firstItem="6kC-Uf-ZVs" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="uZC-k4-Ppo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgImageView" destination="Wex-rD-Pk5" id="CDm-LG-lfT"/>
+                <outlet property="containerView" destination="6kC-Uf-ZVs" id="h6v-35-zru"/>
+                <outlet property="deleteBtn" destination="PWR-q5-rra" id="Ob4-Ic-gPF"/>
+                <outlet property="minEggsRequiredLabel" destination="NE7-ms-VAN" id="KYu-xZ-Ubc"/>
+                <outlet property="recipeName" destination="THA-IV-SDv" id="rnW-Vd-WKm"/>
+                <outlet property="voteDownLabel" destination="fRE-Vt-RlO" id="gN7-yr-0gO"/>
+                <outlet property="voteUpLabel" destination="ZtT-M7-zeW" id="Bk7-zU-ze0"/>
+            </connections>
+            <point key="canvasLocation" x="255.19999999999999" y="223.08845577211397"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="VoteDown" width="83.333335876464844" height="83.333335876464844"/>
+        <image name="VoteUp" width="83.333335876464844" height="83.333335876464844"/>
+    </resources>
+</document>

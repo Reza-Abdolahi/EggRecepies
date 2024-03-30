@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NameAddCell" rowHeight="131" id="KGk-i7-Jjw" customClass="NameAddCell" customModule="Egg_Recipes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="131"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="130.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cBu-M5-4bH">
+                        <rect key="frame" x="16" y="16" width="311" height="98.5"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text=" " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="seq-hd-VvQ">
+                                <rect key="frame" x="16" y="16" width="279" height="66.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="seq-hd-VvQ" firstAttribute="centerY" secondItem="cBu-M5-4bH" secondAttribute="centerY" id="0pA-W0-mDy"/>
+                            <constraint firstItem="seq-hd-VvQ" firstAttribute="centerX" secondItem="cBu-M5-4bH" secondAttribute="centerX" id="QGG-bz-lcR"/>
+                            <constraint firstItem="seq-hd-VvQ" firstAttribute="top" secondItem="cBu-M5-4bH" secondAttribute="top" constant="16" id="pu8-I8-glw"/>
+                            <constraint firstItem="seq-hd-VvQ" firstAttribute="leading" secondItem="cBu-M5-4bH" secondAttribute="leading" constant="16" id="zeU-8r-Nsn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.4330410361289978" green="0.79593062400817871" blue="0.79608738422393799" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="cBu-M5-4bH" secondAttribute="trailing" constant="16" id="BZt-n5-bJ2"/>
+                    <constraint firstItem="cBu-M5-4bH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Qml-yt-TjN"/>
+                    <constraint firstItem="cBu-M5-4bH" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Rby-G9-jrq"/>
+                    <constraint firstItem="cBu-M5-4bH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="TLJ-Du-jfc"/>
+                    <constraint firstItem="cBu-M5-4bH" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="qgb-OM-0TU"/>
+                    <constraint firstAttribute="bottom" secondItem="cBu-M5-4bH" secondAttribute="bottom" constant="16" id="yvQ-Tu-6QW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="cBu-M5-4bH" id="sm1-v2-FEk"/>
+                <outlet property="textView" destination="seq-hd-VvQ" id="LVD-oT-TMV"/>
+            </connections>
+            <point key="canvasLocation" x="143.19999999999999" y="87.706146926536732"/>
+        </tableViewCell>
+    </objects>
+</document>
